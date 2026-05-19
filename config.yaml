@@ -1,7 +1,7 @@
 # Заглушка: копия config.example.yaml без чувствительных значений.
 # Отредактируй перед запуском. Секреты не сюда — в .env / GitHub Secrets.
 
-tickers: []
+tickers: [GOOGL; AMD; MSFT; NVDA; AYEW; WDC; SECO; CELH; NVO; RY4C; ABNB]
 
 monitoring:
   insider_trades: true
@@ -25,7 +25,7 @@ schedule:
   weekly_report: "0 17 * * 0"
 
 reports:
-  language: ru
+  language: eng
   timezone: Europe/Moscow
   currency: USD
   benchmark: SPY
